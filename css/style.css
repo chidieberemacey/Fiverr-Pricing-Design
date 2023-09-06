@@ -1,0 +1,134 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.main{
+  margin: 20px auto;
+  border: 1px solid grey;
+  width: 350px;
+  /* width: 1200px; */
+}
+.padPoint{
+  padding: 20px 20px 10px 20px;
+}
+.top{
+  display: flex;
+}
+
+.upper{
+  border: .8px solid rgb(165, 164, 164);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 18px 10px;
+  width: 100%;
+  text-align: center;
+  color: rgb(107, 107, 107);
+  background-color: rgb(247, 247, 247);
+  font-family: sans-serif;
+}
+
+.double{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 30px;
+  align-items: center;
+}
+
+.double h3{
+  font-size: .9rem;
+}
+
+.double p{
+  font-size: 1.3rem;
+}
+
+.para{
+  font-family: sans-serif;
+  color: rgb(109, 109, 109);
+  font-size: .8rem;
+  padding-bottom: 10px;
+  /* letter-spacing: .1em; */
+}
+
+.two{
+  margin-top: .9rem;
+  font-weight: 500;
+  font-size: .8rem;
+  color: rgb(88, 88, 88);
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.buttons{
+  width: 100%;
+  font-size: .8rem;
+}
+
+.cont{
+  background-color: rgb(61, 202, 80);
+  margin-top: .6rem;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.comp{
+  background-color: #fff;
+  color: rgb(80, 211, 97);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px 30px;
+  /* margin-bottom: .1rem; */
+}
+
+.line{
+  border-bottom: .8px solid rgb(165, 164, 164);
+  margin-bottom: 1rem;
+}
+
+.contact{
+  background-color: #fff;
+  color: rgb(92, 91, 91);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 91, 91);
+  font-size: .85rem;
+  margin: 20px;
+}
+
+.coloured{
+  background-color: rgba(247, 247, 247, 0.541);
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.two img{
+  width: .8rem;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
